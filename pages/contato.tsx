@@ -1,9 +1,9 @@
+import s from '../styles/contato.module.css';
+
 export const Contato = () => {
     return (
-        <div>
-            <h1>Contato</h1>
-        </div>
-    )
+        <div>,.</div>
+    );
 }
 
 export default Contato;

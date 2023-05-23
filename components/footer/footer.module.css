@@ -1,0 +1,80 @@
+.footer {
+    padding-top: 25px;
+    background-color: #1B1B1B;
+    padding-bottom: 54px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin: auto;
+    color: #FFF;
+}
+
+.container a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.info ul a {
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+    border-radius: 15%;
+    text-align: center;
+    transition: all ease .2s;
+    padding-bottom: 2px;
+}
+
+.info ul a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+.info h3 {
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.info ul {
+    text-decoration: none;
+}
+
+
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face {
+    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+    transition: all ease-in-out 0.3s;
+}
+
+.face:hover {}
+
+.insta {
+    border-radius: 25%;
+    height: 55px;
+    width: 55px;
+}
+
+.insta:hover {}
+
+.whats {
+    height: 50px;
+    width: 50px;
+}

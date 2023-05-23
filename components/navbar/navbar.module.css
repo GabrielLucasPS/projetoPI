@@ -1,0 +1,89 @@
+.container {
+    max-height: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    height: 100%;
+}
+
+
+.logo {
+    height: 80px;
+}
+
+.logo img {
+    height: 100%;
+    width: 170px;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navLink {
+    font-size: 22px;
+}
+
+.navLink:hover {
+    border-bottom: 3px solid #1B1B1B;
+}
+
+
+.linkActive {
+    font-size: 22px;
+    border-bottom: 3px solid #1B1B1B;
+}
+
+.navLinkItem {
+    text-decoration: none;
+    color: #000;
+    border-radius: 5%;
+    padding: 4px;
+}
+
+
+.cartIcon {
+    height: 40px;
+    margin-right: 35px;
+}
+
+.cartIcon img {
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+@keyframes linkHover {
+    0% {
+        background: linear-gradient(to right, #FFF, #000 0 20%, #FFF 20% 40%, #FFF 40% 60%, #FFF 60% 80%, #FFF 80% 100%);
+    }
+
+    20% {
+        background: linear-gradient(to right, #FFF, #000 0 20%, #000 20% 40%, #FFF 40% 60%, #FFF 60% 80%, #FFF 80% 100%);
+    }
+
+    40% {
+        background: linear-gradient(to right, #FFF, #000 0 20%, #000 20% 40%, #000 40% 60%, #FFF 60% 80%, #FFF 80% 100%);
+    }
+
+    80% {
+        background: linear-gradient(to right, #FFF, #000 0 20%, #000 20% 40%, #000 40% 60%, #000 60% 80%, #FFF 80% 100%);
+    }
+
+    100% {
+        background: linear-gradient(to right, #FFF, #000 0 20%, #000 20% 40%, #000 40% 60%, #000 60% 80%, #000 80% 100%);
+    }
+}

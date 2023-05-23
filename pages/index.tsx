@@ -15,7 +15,7 @@ export default function Home() {
 				<link rel="icon" type="image/png" sizes="350x350" href="/assets/favicon.png" />
 			</Head>
 			<main>
-				<div>
+				<div className={styles.container}>
 					<h1>HOME</h1>
 				</div>
 			</main>

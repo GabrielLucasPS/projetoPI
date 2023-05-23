@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container { 
+    margin: auto;
+    background-image: url("imgs/bgImage.png");
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato {
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(129, 129, 129, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    color: #FFF;
+    width: 1080px;
+    border-radius: 25px;
+    padding: 80px
+}    
+.contatoinfo{
+    display:flex ;
+    justify-content:center;
+    flex-direction: column;
+}
+.infotop{
+    display:flex ;
+    justify-content:space-between;
+    margin-bottom: 130px;
+}
+.infobox{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.infobox h2{
+    width:100% ;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.infobox p{
+    width:100% ;
+    height: 150px;
+    text-align: center;
+}
+.infobottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infobottom div{
+    width: 500px;
+    text-align: center;
+}
+.infobottom h2{
+    margin-bottom: 15px;
+}
+.infobottom p{
+    margin-bottom: 15px;
+}
+.email{
+    font-size: 20px;
+}
+.telefone{
+    font-size: 30px;
+}

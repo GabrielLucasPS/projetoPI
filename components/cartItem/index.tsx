@@ -3,6 +3,8 @@ import { formatCurrency } from '@/utils/formatCurrency';
 import { Products } from '@/utils/Products';
 import styles from './styles.module.css';
 
+import storeItems from "../../data/items.json";
+
 type CartItemProps = {
     id: number,
     quantity: number
@@ -11,7 +13,7 @@ type CartItemProps = {
 export const CartItem = ({ id, quantity }: CartItemProps) => {
     const { removeFromCart, increaseCartQuantity, decreaseCartQuantity, getItemQuantity } = useShoppingCart();
 
-    const item = Products.find(item => item.id === id)
+    const item = storeItems.find(item => item.id === id)
     if (item == null) return null
 
     let total = item.price * quantity;

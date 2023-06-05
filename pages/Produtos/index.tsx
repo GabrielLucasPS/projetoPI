@@ -3,7 +3,6 @@ import { useShoppingCart } from '@/context/ShoppingCartContext';
 import styles from '@/styles/products.module.css';
 
 import { Products } from '@/utils/Products';
-import storeItems from "../../data/items.json"
 
 
 const Produtos = () => {
@@ -41,7 +40,7 @@ const Produtos = () => {
                 </div>
                 <div className={styles.content}>
                     <div className={styles.products}>
-                        {storeItems.map((item, index) => (
+                        {Products.map((item, index) => (
                             <div key={index} className={styles.product}>
                                 <ProductItem
                                     id={item.id}

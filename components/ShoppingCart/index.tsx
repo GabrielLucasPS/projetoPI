@@ -4,8 +4,6 @@ import styles from './styles.module.css';
 import { Products } from '@/utils/Products';
 import { formatCurrency } from '@/utils/formatCurrency';
 
-import storeItems from "../../data/items.json"
-
 type ShoppingCartProps = {
     isOpen: boolean;
 }
@@ -37,7 +35,7 @@ export const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
 
                         Total:
                         {formatCurrency(cartItems.reduce((total, cartItem) => {
-                            const item = storeItems.find(i => i.id === cartItem.id)
+                            const item = Products.find(i => i.id === cartItem.id)
                             return total + (item?.price || 0) * cartItem.quantity
                         }, 0))}
                     </div>

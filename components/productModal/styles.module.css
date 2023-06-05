@@ -1,0 +1,80 @@
+.containerModal {
+    width: 700px;
+}
+
+.Modal {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF;
+    border-radius: 2%;
+}
+
+.Modalleft {
+    width: 350px;
+}
+
+.Modalleft img {
+    width: 100%;
+    height: 200px;
+    border-radius: 2% 0% 0 0;
+}
+
+.ModalproductName {
+    color: #414141;
+    font-size: 22px;
+    padding: 0 8px;
+}
+
+.ModalproductName::after {
+    height: 1px;
+    width: 100%;
+    content: "";
+    display: block;
+    background-color: #414141;
+    margin: auto;
+    margin-top: 4px;
+}
+
+.Modaldescription {
+    font-size: 20px;
+    color: #414141;
+    margin-top: 15px;
+    padding: 0 8px 40px 8px;
+}
+
+.Modalright {
+    padding-left: 0 8px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Modalprice {
+    text-align: center;
+    width: 100%;
+}
+
+.Modalvalue {
+    color: #414141;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Modaltotal {
+    text-align: center;
+    font-size: 24px;
+}
+
+.ModaladdButton {
+    margin-top: 20px;
+    font-size: 22px;
+    background-color: #1b1b1b;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 2%;
+    cursor: pointer;
+}

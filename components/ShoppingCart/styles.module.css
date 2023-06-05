@@ -1,0 +1,85 @@
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    height: 100%;
+    transition: all ease 0.8s;
+    width: 320px;
+    color: #1b1b1b;
+    background-color: #FFF;
+    padding: 0 10px;
+    border-left: 3px solid #1b1b1b;
+    border-bottom: 3px solid #1b1b1b;
+    box-shadow: rgba(0, 0, 0, 0.45) -25px 0px 25px -20px;
+    overflow-y: scroll;
+}
+
+.cartContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cartContainer::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+.cartContainer::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+.cartContainer::-webkit-scrollbar-thumb:hover {
+    background: #1b1b1b;
+}
+
+
+
+
+.cartHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cartTitle {
+    font-weight: 500;
+    margin-right: 30%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cartBackButton {
+    transition: all ease 0.3s;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    border-right: 4px solid #FFF;
+    rotate: 90deg;
+}
+
+.backButtonImg {
+    background-image: url('./backButton.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 35px;
+    width: 35px;
+}
+
+.cartBackButton:hover {
+    border-right: 4px solid #1b1b1b;
+
+}
+
+.Total {
+    display: block;
+    text-align: end;
+    margin: 40px 0 30px 0;
+    font-weight: bold;
+    font-size: 22px;
+}

@@ -15,8 +15,21 @@ export default function Home() {
 				<link rel="icon" type="image/png" sizes="350x350" href="/assets/favicon.png" />
 			</Head>
 			<main>
-				<div className={styles.container}>
-					<h1>HOME</h1>
+				<div className={styles.background}>
+					<div className={styles.counteiner}>
+						<div className={styles.titles}>
+							<h1 className={styles.title1}>COMEMORAR É SOBRE</h1>
+							<h1 className={styles.title2}>COMUNICAR A FELICIDADE</h1>
+						</div>
+						<div className={styles.buttons}>
+							<a href={'/contato'} className={styles.btn1}>
+								<div>Sobre nós</div>
+							</a>
+							<a href={'/products'} className={styles.btn2}>
+								<div>Promoções</div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</main>
 		</>

@@ -2,9 +2,12 @@ import Link from 'next/link';
 import s from './navbar.module.css';
 import { navigationLinks } from '@/utils/data';
 import { useRouter } from 'next/router';
+import { useShoppingCart } from '@/context/ShoppingCartContext';
 
 export const Navbar = () => {
     const router = useRouter();
+    const { openCart } = useShoppingCart();
+
 
     return (
         <div className={s.container}>
@@ -19,7 +22,7 @@ export const Navbar = () => {
                         </div>
                     ))}
                 </div>
-                <div className={s.cartIcon}>
+                <div onClick={openCart} className={s.cartIcon}>
                     <img src="./assets/cartIcon.png" alt="" />
                 </div>
             </div>

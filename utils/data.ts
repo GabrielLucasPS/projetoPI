@@ -1,6 +1,6 @@
 export const navigationLinks = [
     { label: 'Home', path: '/' },
-    { label: 'Produtos', path: '/products' },
+    { label: 'Produtos', path: '/Produtos' },
     { label: 'Contato', path: '/contato' },
-    { label: 'Eventos', path: '/eventos' }
-]
+    { label: 'Eventos', path: '/eventos' },
+];

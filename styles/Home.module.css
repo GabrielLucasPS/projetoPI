@@ -1,8 +1,68 @@
-<<<<<<< HEAD
-=======
-.container {
-    height: calc(100vh - 60px);
-    background-image: url('../public/assets/bgImage.png');
+.background {
+    background-image: url("../public/assets/bgImage.png");
     background-size: cover;
+    height: calc(100vh - 60px);
 }
->>>>>>> 36ee9756e2044b3499117292493b643539e6b7ac
+
+.counteiner {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+}
+
+.titles {
+    text-align: center;
+
+}
+
+.title1 {
+    text-shadow: 1px 1px 2px black, 0 0 1em #000, 0 0 0.2em #000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.title2 {
+    text-shadow: 1px 1px 2px black, 0 0 1em #000, 0 0 0.2em #000;
+    color: #FFAF36;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn1 {
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 15px;
+    color: #000;
+    background-color: #FFAF36;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

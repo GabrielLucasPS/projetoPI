@@ -1,0 +1,29 @@
+.containerQuantity {}
+
+.Quantitybuttons {
+    display: flex;
+}
+
+.Quantitybuttons div {
+    padding: 5px 20px;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.Quantityqt {
+    margin: 0 30px;
+}
+
+.Quantitybtn {
+    background-color: #1b1b1b;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.Quantitybtn::selection {
+    background-color: transparent;
+}
+
+.Quantityqt::selection {
+    background-color: transparent;
+}

@@ -1,0 +1,73 @@
+.cartItemConteiner {
+    margin-bottom: 30px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.productImg {
+    margin-right: 5px;
+}
+
+.productImg img {
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+
+.productInfo {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.productTitle {
+    text-align: center;
+    height: 100%;
+}
+
+.Title {
+    font-size: 17px;
+    color: #414141;
+
+}
+
+.quantity {
+    font-size: 14px;
+    color: #414141;
+}
+
+.priceInfo {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.RemoveButton {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 3px 7px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    color: #aa0000;
+    transition: all ease 0.3s;
+    border: 2px solid #aa0000;
+}
+
+.RemoveButton:hover {
+    background-color: #aa0000;
+    color: #FFF;
+}

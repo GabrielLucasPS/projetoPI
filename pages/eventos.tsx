@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from '../styles/eventos.module.css';
 
 export const Eventos = () => {
     return (
@@ -9,7 +10,50 @@ export const Eventos = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" type="image/png" sizes="350x350" href="/assets/favicon.png" />
             </Head>
-            <h1>Eventos</h1>
+            <main>
+                <div className={styles.container}>
+                    <div className={styles.box}>
+                        <img src="./assets/eventImage.png" alt="" />
+                        <div className={styles.boxInfo}>
+                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
+                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
+                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
+                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                        </div>
+                    </div>
+                    <div className={styles.box}>
+                        <img src="./assets/eventImage2.png" alt="" />
+                        <div className={styles.boxInfo}>
+                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
+                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
+                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
+                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                        </div>
+                    </div>
+                    <div className={styles.box}>
+                        <img src="./assets/eventImage3.png" alt="" />
+                        <div className={styles.boxInfo}>
+                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
+                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
+                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
+                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                        </div>
+                    </div>
+                    <div className={styles.box}>
+                        <img src="./assets/bgImage.png" alt="" />
+                        <div className={styles.boxInfo}>
+                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
+                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
+                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
+                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
+                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     )
 }

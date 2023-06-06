@@ -2,8 +2,8 @@ export type ProductsType = {
     id: number,
     image: string,
     price: number,
-    title: number,
-    description: number,
+    title: string,
+    description: string,
 }
 
 export const Products = [

@@ -17,6 +17,7 @@
 
 .logo {
     height: 80px;
+    width: 100px;
 }
 
 .logo img {
@@ -29,11 +30,11 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
 }
 
 .navLink {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .navLink:hover {
@@ -42,7 +43,7 @@
 
 
 .linkActive {
-    font-size: 22px;
+    font-size: 18px;
     border-bottom: 3px solid #1B1B1B;
 }
 

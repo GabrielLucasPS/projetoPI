@@ -3,12 +3,16 @@ import { useShoppingCart } from '@/context/ShoppingCartContext';
 import styles from '@/styles/products.module.css';
 
 import { Products } from '@/utils/Products';
+import Head from 'next/head';
 
 
 const Produtos = () => {
     const { closeCart } = useShoppingCart();
     return (
         <div>
+            <Head>
+                <title>Produtos</title>
+            </Head>
             <main className={styles.container}
                 onClick={closeCart}
             >

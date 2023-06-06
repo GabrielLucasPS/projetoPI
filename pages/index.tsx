@@ -26,7 +26,7 @@ export default function Home() {
 								<div>Sobre nós</div>
 							</a>
 							<a href={'/products'} className={styles.btn2}>
-								<div>Promoções</div>
+								<div>Produtos</div>
 							</a>
 						</div>
 					</div>

@@ -12,6 +12,8 @@ const Produtos = () => {
         <div>
             <Head>
                 <title>Produtos</title>
+                <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+                <link rel="icon" type="image/png" sizes="350x350" href="/assets/favicon.png" />
             </Head>
             <main className={styles.container}
                 onClick={closeCart}

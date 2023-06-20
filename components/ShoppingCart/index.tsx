@@ -3,15 +3,21 @@ import CartItem from '../cartItem';
 import styles from './styles.module.css';
 import { Products } from '@/utils/Products';
 import { formatCurrency } from '@/utils/formatCurrency';
+import { useState } from 'react';
 
 type ShoppingCartProps = {
     isOpen: boolean;
 }
 
 export const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
-    const { cartItems, closeCart, increaseCartQuantity, decreaseCartQuantity, getItemQuantity } = useShoppingCart();
+    const { cartItems, closeCart, removeAll, checkout } = useShoppingCart();
+
 
     const quantity = 4;
+
+    const handleCheckout = () => {
+        checkout()
+    }
 
     return (
         <aside className={styles.cartContainer}
@@ -38,6 +44,9 @@ export const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
                             const item = Products.find(i => i.id === cartItem.id)
                             return total + (item?.price || 0) * cartItem.quantity
                         }, 0))}
+                    </div>
+                    <div className={styles.CheckoutBtn} onClick={handleCheckout}>
+                        <div className={styles.CheckoutTitle}>Finalizar Compra</div>
                     </div>
                 </div>
             </div>

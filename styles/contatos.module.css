@@ -8,7 +8,7 @@
 }
 
 .contato {
-    background: rgba(255, 255, 255, 0.22);
+    background: rgba(0, 0, 0, 0.22);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(129, 129, 129, 0.1);
     backdrop-filter: blur(7.3px);
@@ -28,7 +28,7 @@
 .infotop {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 
 .infobox {
@@ -36,6 +36,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.infobox img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .infobox h2 {
@@ -61,20 +67,20 @@
 }
 
 .infobottom div {
-    width: 500px;
+    width: 700px;
     text-align: center;
 }
 
 .infobottom h2 {
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px black, 0 0 1em #000, 0 0 0.2em #000;
-
 }
 
 .infobottom p {
-    margin-bottom: 15px;
     text-shadow: 1px 1px 2px black, 0 0 1em #000, 0 0 0.2em #000;
-
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
 }
 
 .email {

@@ -3,10 +3,11 @@ import s from './navbar.module.css';
 import { navigationLinks } from '@/utils/data';
 import { useRouter } from 'next/router';
 import { useShoppingCart } from '@/context/ShoppingCartContext';
+import { useState } from 'react';
 
 export const Navbar = () => {
     const router = useRouter();
-    const { openCart } = useShoppingCart();
+    const { openCart, checkout } = useShoppingCart();
 
 
     return (

@@ -20,7 +20,7 @@ export const CartItem = ({ id, quantity }: CartItemProps) => {
         <div className={styles.cartItemConteiner}>
             <div className={styles.cartItem}>
                 <div className={styles.productImg}>
-                    <img src="./assets/prato.png" alt="" />
+                    <img src={item.image} alt="" />
                 </div>
                 <div className={styles.productInfo}>
                     <h3 className={styles.productTitle}>

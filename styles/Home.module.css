@@ -66,3 +66,12 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media (min-width:450px) and (max-width:800px) {
+    .background {
+        max-width: 800px;
+        overflow-x: hidden;
+    }
+}

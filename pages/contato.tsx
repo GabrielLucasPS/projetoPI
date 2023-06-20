@@ -6,6 +6,8 @@ export const Contato = () => {
         <div className={styles.container}>
             <Head>
                 <title>Contato</title>
+                <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+                <link rel="icon" type="image/png" sizes="350x350" href="/assets/favicon.png" />
             </Head>
             <div className={styles.contato}>
 
@@ -13,26 +15,23 @@ export const Contato = () => {
 
                     <div className={styles.infotop}>
                         <div className={styles.infobox}>
-                            <h2>Localização</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus nemo amet natus quae
-                                magni excepturi nesciunt odio harum ad et quo, at, dolorum ipsa eum. Eligendi at alias
-                                necessitatibus?</p>
+                            <h2>Local</h2>
+                            <img src="./assets/mapa.png" alt="" />
+                        </div>
+                        <div className={styles.infobox}>
+                            <h2>Endereço</h2>
+                            <p className={styles.email}>Endereço: R. Maj. Gote, 121 - Centro, Patos de Minas - MG, 38700-001</p>
                         </div>
                         <div className={styles.infobox}>
                             <h2>Telefone</h2>
-                            <p className={styles.telefone}>(34)9999-9999</p>
-                        </div>
-                        <div className={styles.infobox}>
-                            <h2>Email</h2>
-                            <p className={styles.email}>SIDlocacao@gmail.com</p>
+                            <p className={styles.telefone}>(34) 3822-0918</p>
                         </div>
                     </div>
                     <div className={styles.infobottom}>
                         <div>
                             <h2>Quem Somos?</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sed laborum? Doloribus
-                                voluptatibus natus animi vitae molestias inventore cumque, cupiditate qui accusamus est nam
-                                dolor sed, quod consectetur, repellat dolorem.</p>
+                            <p>
+                                Bem-vindo à nossa empresa de venda e locações para festas! Estamos aqui para tornar sua festa especial e sem complicações. Com uma ampla seleção de produtos e serviços disponíveis, oferecemos tudo o que você precisa para criar momentos inesquecíveis. Estamos prontos para transformar sua celebração em um evento extraordinário. Conte conosco para tornar seu sonho realidade. Entre em contato hoje mesmo e deixe-nos cuidar dos detalhes para você.</p>
                         </div>
                     </div>
                 </div>

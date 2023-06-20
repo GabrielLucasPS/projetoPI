@@ -30,10 +30,13 @@
     font-weight: bold;
     font-size: 25px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+    width: 285px;
 }
 
 .boxDescription {
     font-weight: normal;
     font-size: 20px;
+    text-align: center;
+    max-width: 100%;
 }

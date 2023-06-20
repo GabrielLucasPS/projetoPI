@@ -15,41 +15,37 @@ export const Eventos = () => {
                     <div className={styles.box}>
                         <img src="./assets/eventImage.png" alt="" />
                         <div className={styles.boxInfo}>
-                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
-                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
-                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
-                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                            <h3 className={styles.boxTitle}>Confraternização 10 Anos</h3>
+                            <p className={styles.boxDescription}>
+                                Nós, da SidLocações, temos o prazer de compartilhar com vocês um evento verdadeiramente especial que tivemos o privilégio de ajudar a decorar.A festa foi um verdadeiro espetáculo que refletiu a grandiosidade e a importância desse momento. Juntos, criamos uma atmosfera única, repleta de elegância e sofisticação, combinando perfeitamente com a identidade da empresa.
+                            </p>
                         </div>
                     </div>
                     <div className={styles.box}>
                         <img src="./assets/eventImage2.png" alt="" />
                         <div className={styles.boxInfo}>
-                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
-                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
-                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
-                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                            <h3 className={styles.boxTitle}>Festa 15 Anos</h3>
+                            <p className={styles.boxDescription}>
+                                Uma festa deslumbrante em vermelho e rosa: Celebre os 15 anos em grande estilo! Temos o prazer de compartilhar com vocês um evento verdadeiramente encantador que tivemos a oportunidade de ajudar a decorar. Nosso talentoso time de decoradores trabalhou em conjunto com a família para criar uma atmosfera deslumbrante que refletisse a personalidade e os gostos únicos da aniversariante.
+                            </p>
                         </div>
                     </div>
                     <div className={styles.box}>
                         <img src="./assets/eventImage3.png" alt="" />
                         <div className={styles.boxInfo}>
-                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
-                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
-                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
-                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                            <h3 className={styles.boxTitle}>Piquenique</h3>
+                            <p className={styles.boxDescription}>
+                                Desfrute de um piquenique inesquecível: A harmonia perfeita entre natureza e celebração. Recentemente, tivemos a oportunidade de proporcionar um piquenique ao ar livre. Um momento especial de conexão, relaxamento e celebração em meio à natureza. Em um belo cenário ao ar livre, nossos talentosos profissionais organizaram um evento personalizado, repleto de conforto, charme e diversão.
+                            </p>
                         </div>
                     </div>
                     <div className={styles.box}>
                         <img src="./assets/bgImage.png" alt="" />
                         <div className={styles.boxInfo}>
-                            <h3 className={styles.boxTitle}>Evento Titulo</h3>
-                            <p className={styles.boxDescription}>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis
-                                maximus felis, a feugiat leo tempor quis. Class aptent taciti sociosqu ad litora torquent per
-                                conubia nostra, per inceptos himenaeos. Quisque at suscipit mi. Sed mollis massa leo, non congue
-                                justo fermentum eget. Mauris libero felis, lobortis quis enim sed, iaculis interdum augue.</p>
+                            <h3 className={styles.boxTitle}>Festa de Casamento</h3>
+                            <p className={styles.boxDescription}>
+                                A decoração foi cuidadosamente selecionada para transmitir a beleza e o romance que permeavam o casamento. Flores exuberantes, arranjos magníficos e uma iluminação perfeita foram usados para criar um ambiente deslumbrante e emocionante. Cada espaço, desde a cerimônia até a recepção, foi transformado em um cenário de conto de fadas.Os detalhes personalizados fizeram toda a diferença.
+                            </p>
                         </div>
                     </div>
                 </div>

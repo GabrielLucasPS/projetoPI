@@ -2,12 +2,18 @@ import ProductItem from '@/components/product';
 import { useShoppingCart } from '@/context/ShoppingCartContext';
 import styles from '@/styles/products.module.css';
 
-import { Products } from '@/utils/Products';
+import { Products, Materiais, Bebidas, Moveis, Decoracao } from '@/utils/Products';
 import Head from 'next/head';
+import Router from 'next/router';
+import { useState, useEffect } from 'react'
 
 
 const Produtos = () => {
     const { closeCart } = useShoppingCart();
+
+    const [Produtos, setProdutos] = useState(Products);
+
+
     return (
         <div>
             <Head>
@@ -20,33 +26,16 @@ const Produtos = () => {
             >
                 <div className={styles.menu}>
                     <ul>
-                        <li>
-                            <div className={styles.categoryLabel}>Bebidas</div>
-                            <div className={styles.category}>
-                                <span>Cervejas</span>
-                                <span>Energetico</span>
-
-                            </div>
-                        </li>
-                        <li>
-                            <div className={styles.categoryLabel}>Móveis</div>
-                            <div className={styles.category}>
-                                <span>Cadeiras</span>
-                                <span>Mesas</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div className={styles.categoryLabel}>Decorações</div>
-                            <div className={styles.category}>
-                                <span>Flores</span>
-                                <span>Guardanapo de Tecido</span>
-                            </div>
-                        </li>
+                        <div className={styles.categoryLabel} onClick={() => setProdutos(Products)}>Todos os Produtos</div>
+                        <div className={styles.categoryLabel} onClick={() => setProdutos(Materiais)}>Materiais</div>
+                        <div className={styles.categoryLabel} onClick={() => setProdutos(Bebidas)}>Bebidas</div>
+                        <div className={styles.categoryLabel} onClick={() => setProdutos(Moveis)}>Móveis</div>
+                        <div className={styles.categoryLabel} onClick={() => setProdutos(Decoracao)}>Decorações</div>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <div className={styles.products}>
-                        {Products.map((item, index) => (
+                        {Produtos.map((item, index) => (
                             <div key={index} className={styles.product}>
                                 <ProductItem
                                     id={item.id}

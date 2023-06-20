@@ -16,7 +16,7 @@ export const Contato = () => {
                     <div className={styles.infotop}>
                         <div className={styles.infobox}>
                             <h2>Local</h2>
-                            <img src="./assets/mapa.png" alt="" />
+                            <a target="_blank" href="https://www.google.com/maps/place/Sid+Loca%C3%A7%C3%B5es+-+Bebidas+-+Disk+Bebidas+-+Patos+de+Minas/@-18.583554,-46.5147,15z/data=!4m2!3m1!1s0x0:0x9bf6f84661960e95?sa=X&ved=2ahUKEwiXxsqDqtL_AhVRLrkGHaNFAe8Q_BJ6BAhTEAg"><img src="./assets/mapa.png" alt="" /></a>
                         </div>
                         <div className={styles.infobox}>
                             <h2>Endereço</h2>

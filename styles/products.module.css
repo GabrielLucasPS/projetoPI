@@ -27,6 +27,15 @@
     margin: 0px 0 4px 0;
     border-bottom: 1px solid #3a3939;
     padding: 5px 5px 0 5px;
+    margin-bottom: 35px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color ease 0.2s;
+}
+
+.categoryLabel:hover {
+    background-color: #1b1b1b;
+    color: #FFF;
 }
 
 .category {

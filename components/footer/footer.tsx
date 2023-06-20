@@ -10,8 +10,8 @@ export const Footer = () => {
                         <h3>SID LOCACOES</h3>
                     </div>
                     <ul>
-                        <Link href="">Sobre a empresa</Link>
-                        <Link href="">Home</Link>
+                        <Link href="/contato">Sobre a empresa</Link>
+                        <Link href="/">Home</Link>
                     </ul>
                 </div >
                 <div className={s.info}>
@@ -19,8 +19,8 @@ export const Footer = () => {
                         <h3>PRODUTOS</h3>
                     </div>
                     <ul>
-                        <Link href="">Catálogo de rodutos</Link>
-                        <Link href="">Eventos</Link>
+                        <Link href="/Produtos">Catálogo de produtos</Link>
+                        <Link href="/eventos">Eventos</Link>
                     </ul>
                 </div>
                 <div className={s.infoSocials}>
@@ -28,9 +28,9 @@ export const Footer = () => {
                         <h3>NOSSAS REDES SOCIAIS</h3>
                     </div>
                     <div className={s.socials}>
-                        <Link href={""} className={s.icon} > <img className={s.face} src="./assets/faceIcon.png" alt="" /></Link>
-                        <Link href={""} className={s.icon} > <img className={s.insta} src="./assets/instaIcon.png" alt="" /></Link>
-                        <Link href={""} className={s.icon} > <img className={s.whats} src="./assets/WhatsIcon.png" alt="" /></Link>
+                        <Link target="_blank" href={"https://www.facebook.com/sidlocacao/?locale=pt_BR"} className={s.icon} > <img className={s.face} src="./assets/faceIcon.png" alt="" /></Link>
+                        <Link target="_blank" href={"https://www.instagram.com/sidlocacoesebebidas/"} className={s.icon} > <img className={s.insta} src="./assets/instaIcon.png" alt="" /></Link>
+                        <Link target="_blank" href={"https://api.whatsapp.com/send/?phone=5534991158700&text&type=phone_number&app_absent=0"} className={s.icon} > <img className={s.whats} src="./assets/WhatsIcon.png" alt="" /></Link>
                     </div>
 
                 </div>
